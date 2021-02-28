@@ -217,7 +217,7 @@ f = Figure(figsize=(10, 10), dpi=100)
 a = f.add_subplot(111)
 
 canvas = FigureCanvasTkAgg(f, top_frame)
-canvas.show()
+canvas.draw()
 canvas.get_tk_widget().pack(side=BOTTOM, fill=BOTH, expand=True)
 Params.subplot = a
 Params.canvas = canvas

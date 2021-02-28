@@ -55,7 +55,7 @@ def plot_figure(gene, graph):
                                                                               graph.points[edge.end].y], 'k-')
 
     Params.root.update()
-    Params.canvas.show()
+    Params.canvas.draw()
     sleep(Params.display_delay)
 
 
